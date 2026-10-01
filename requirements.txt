@@ -1,0 +1,23 @@
+# Core
+numpy>=1.24
+python-dotenv>=1.0
+
+# Embeddings + vector search (local, no API key needed)
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+
+# PDF ingestion
+pypdf>=4.0
+
+# Agent orchestration
+langgraph>=0.2
+
+# LLM (primary generator; optional, extractive fallback used without a key)
+anthropic>=0.34
+
+# MCP server (exposes the retriever as a tool)
+mcp>=1.0
+
+# API
+fastapi>=0.110
+uvicorn>=0.29

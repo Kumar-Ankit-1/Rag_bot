@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+index/
+*.faiss
+*.pkl
+eval_results.json
+.DS_Store
